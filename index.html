@@ -1156,7 +1156,7 @@
           <div>
             <div class="kicker">Your Love, Interpreted</div>
             <h2 class="result-title">A curated three-ring collection inspired by devotion, radiance, and modern commitment.</h2>
-            <p class="result-copy">This upgraded demo keeps the recommendation intentionally fixed while presenting the outcome like a refined jewelry consultation. The emotional value lies not in algorithmic complexity, but in the storytelling, the visual mood, and the sense that the client’s love has been thoughtfully interpreted.</p>
+            
           </div>
           <div class="lead-card">
             <div class="kicker" style="margin-bottom:6px;">Client Lead Summary</div>
@@ -1263,16 +1263,7 @@
           <blockquote>“Love does not always reveal itself in the same way. Sometimes it glows, sometimes it steadies, and sometimes it stands quietly with confidence.”</blockquote>
           <p>This final message helps frame the reveal as a conceptual luxury experience rather than a simple product suggestion.</p>
         </div>
-        <div class="followup-card">
-          <div class="kicker">Suggested Follow-Up</div>
-          <h4>What you can say after the reveal</h4>
-          <p>Thank the client for sharing their story, then explain that these three rings were selected to reflect three different dimensions of love: emotional radiance, timeless commitment, and modern partnership.</p>
-          <ul>
-            <li>Invite them to choose the one that feels most personal.</li>
-            <li>Offer to send a private summary by email.</li>
-            <li>Use the captured budget to guide the next discussion.</li>
-          </ul>
-        </div>
+        
       </div>
 
       <div class="result-actions">
@@ -1382,7 +1373,7 @@
       leadBudget.textContent = answers.q6 || 'Not provided';
 
       const greetingName = answers.fullName ? answers.fullName.split(' ')[0] : 'your client';
-      leadIntro.textContent = `This collection can now be shared with ${greetingName}. Their answers have been captured for follow-up, while the final presentation remains intentionally curated and consistent for the demo.`;
+      leadIntro.textContent = `This collection can now be shared with ${greetingName};
 
       try {
         localStorage.setItem('tiffanyLoveProfileLead', JSON.stringify(answers));
